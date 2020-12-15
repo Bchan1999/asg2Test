@@ -5,9 +5,9 @@
 # 
 
 
-DROP DATABASE IF EXISTS `art`;
-CREATE DATABASE IF NOT EXISTS `art`;
-USE `art`;
+#DROP DATABASE IF EXISTS `art`;
+#CREATE DATABASE IF NOT EXISTS `art`;
+USE `nt38p8a86cj73dcw`;
 
 #
 # Table structure for table 'Artists'
