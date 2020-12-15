@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tdC1 = document.createElement('td')
             tdC = document.createElement('a')
             tdC.textContent = i.Title
-            tdC.setAttribute('href', "https://asg2test.herokuapp.com/redirect.php?PaintingId=" + i.PaintingId)
+            tdC.setAttribute('href', "https://asg2test.herokuapp.com/single-painting.php?id=" + i.PaintingId)
             tdC.setAttribute('id', i.PaintingId)
             tdC.setAttribute('alt', i.Title)
             tdC.setAttribute('class', i.LastName)
