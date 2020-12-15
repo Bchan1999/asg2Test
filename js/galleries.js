@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
     //URL API
     // const galleryAPI = "https://www.randyconnolly.com/funwebdev/3rd/api/art/galleries.php"
     // const paintingAPITemp = "https://www.randyconnolly.com/funwebdev/3rd/api/art/paintings.php?gallery="
-    const galleryAPI = "http://localhost/COMP-3512-Assignment-2/api-galleries.php"
-    const paintingAPITemp = "http://localhost/COMP-3512-Assignment-2/api-paintings.php?GalleryID="
+    const galleryAPI = "https://asg2test.herokuapp.com/api-galleries.php"
+    const paintingAPITemp = "https://asg2test.herokuapp.com/api-paintings.php?GalleryID="
     //arrays 
     const gallery = retrieveStorage();
     let paintings = [];

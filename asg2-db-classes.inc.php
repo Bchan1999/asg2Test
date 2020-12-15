@@ -155,7 +155,7 @@ class GalleryDB
 
 class UserDB
 {
-    private static $baseSQL = "SELECT * FROM customerlogon";
+    private static $baseSQL = "SELECT * FROM CustomerLogon";
 
     public function __construct($connection)
     {
@@ -170,7 +170,7 @@ class UserDB
     }
     public function getUser($CustomerID)
     {
-        $sql = self::$baseSQL . " WHERE customerlogon.UserName=?";
+        $sql = self::$baseSQL . " WHERE CustomerLogon.UserName=?";
         $statement = DatabaseHelper::runQuery(
             $this->pdo,
             $sql,
@@ -182,7 +182,7 @@ class UserDB
 
 class CustomerDB
 {
-    private static $baseSQL = "SELECT * FROM customers";
+    private static $baseSQL = "SELECT * FROM Customers";
 
     public function __construct($connection)
     {
@@ -197,7 +197,7 @@ class CustomerDB
     }
     public function getUser($CustomerID)
     {
-        $sql = self::$baseSQL . " WHERE customers.CustomerID=?";
+        $sql = self::$baseSQL . " WHERE Customers.CustomerID=?";
         $statement = DatabaseHelper::runQuery(
             $this->pdo,
             $sql,
