@@ -45,7 +45,7 @@ try {
 
             <?php
             if ($_SERVER['REQUEST_METHOD'] == "POST") {
-                header("Location: http://localhost/asg2/redirect.php?id=" . $_GET['id']);
+                header("Location: https://asg2test.herokuapp.com//redirect.php?id=" . $_GET['id']);
             }
 
             ?>
