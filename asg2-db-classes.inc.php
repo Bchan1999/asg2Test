@@ -118,7 +118,7 @@ class PaintingDB
 
 class GalleryDB
 {
-    private static $baseSQL = "SELECT * FROM galleries";
+    private static $baseSQL = "SELECT * FROM Galleries";
 
     public function __construct($connection)
     {
